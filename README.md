@@ -8,6 +8,8 @@ pour gérer la database, une fois créée, utiliser la commande :
 
 from app import sql   
 
+# ici de temps en temps cela me renvoit un erreur comme quoi il ne trouve pas flask alors qu'il est bien installé (cf commande ci-dessus)
+
 sql.create_all() #pour créer les tables  
 
 
