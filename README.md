@@ -3,8 +3,8 @@ installer les packages suivants :
 pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator
 
 pour gérer la database, une fois créée, utiliser la commande :
->> from app import sql
->> sql.create_all() #pour créer les tables
+>> from app import sql ;
+>> sql.create_all() #pour créer les tables;
 
 pour vérifier que les tables ont été créées : 
 sqlite3 database.sql
