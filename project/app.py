@@ -9,6 +9,9 @@ from flask_bcrypt import Bcrypt
 
 app = Flask(__name__)
 sql=SQLAlchemy(app)
+
+## les commentaires pour db au lieu de sql c'est parce que j'utilise une base de donnée en .sql plutôt que .db (qui est utilisée par le tuto qui m'aide pour cette phase,
+## mais je ne sais pas ouvrir des .db
 # db=SQLAlchemy(app)
 bcrypt=Bcrypt(app)
 app.config['SQLALCHEMY_DATABASE_URL']='sqlite:///database.sql'
