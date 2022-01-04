@@ -1,5 +1,5 @@
 # flask
-installer les packages suivants : 
+installer les packages suivants : /
 pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator
 
 pour gérer la database, une fois créée, utiliser la commande :
