@@ -4,6 +4,9 @@ installer les packages suivants :
 pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator  
 
 
+$env:FLASK_APP = './app.py'  
+$env:WEBAPP_DB = './databse.sql'  
+
 pour gérer la database, une fois créée, utiliser la commande :  
 
 from app import sql   
